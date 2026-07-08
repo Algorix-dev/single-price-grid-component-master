@@ -1,0 +1,115 @@
+/* General Styling */
+:root {
+  --bgColor: #e5eff5;
+  --textColor: #98a6bd;
+  --cta: #c0df34;
+  --divColor: #2ab2af;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bgColor);
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
+
+body h1 {
+  font-size: 1rem;
+}
+
+body h2 {
+  font-size: 14px;
+}
+
+body p {
+  font-size: 12px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+/* Top Div */
+
+.top-div {
+  background-color: white;
+  padding: 30px 15px;
+  width: 550px;
+}
+
+.top-div h1 {
+  color: var(--divColor);
+  margin-bottom: 12px;
+}
+
+.top-div h2 {
+  color: var(--cta);
+  margin-bottom: 10px;
+}
+
+.top-div p {
+  color: var(--textColor);
+}
+/* Bottom Container */
+
+.bottom-container {
+  display: flex;
+}
+/* Left Div */
+.left-div {
+  background-color: var(--divColor);
+  padding: 30px 35px;
+  width: 275px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-div h1 {
+  margin-bottom: 12px;
+}
+
+.price {
+  font-size: 18px;
+}
+
+.first-p {
+  margin-bottom: 5px;
+}
+
+.second-p {
+  margin-bottom: 15px;
+}
+
+.left-div button {
+  background-color: var(--cta);
+  padding: 12px 0px;
+  border: none;
+  color: white;
+  text-align: center;
+  max-width: 85%;
+}
+/* Right div */
+.right-div {
+  background-color: var(--divColor);
+  padding: 30px 25px;
+  width: 275px;
+  opacity: 0.8;
+  color: white;
+}
+.right-div h1 {
+  margin-bottom: 14px;
+}
+.right-div p {
+  line-height: 16px;
+}
