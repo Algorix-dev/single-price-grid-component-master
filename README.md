@@ -24,7 +24,7 @@ This project recreates the provided Frontend Mentor design as accurately as poss
 
 ## 🚀 Live Demo
 
-* **Live Site:*** *[*https://algorix-frontend-master-project-01.vercel.app*](https://algorix-frontend-master-project-01.vercel.app)
+* **Live Site:*** *[*https://algorix-challenge-two.vercel.app*]
 * **GitHub Repository:** https://github.com/Algorix-dev/single-price-grid-component-master
 
 ## 🎯 What I Learned
